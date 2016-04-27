@@ -1,0 +1,23 @@
+{
+	commonProblems: [{
+		problem: "I can't connect to my Linux VM",
+		recommendedSteps: "<div>To resolve the most common issues, try one or more of the following methods.<br><ol><li>Check VM's <a data-blade=\"Microsoft_Azure_Support.ResourceHealthDetailBlade\">Resource Health</a> for any platform issues.</li><li>Review your VM's <a data-blade=Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade>console log</a> or screenshot to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.</li><li><a data-blade=Microsoft_Azure_Classic_Compute.PasswordResetBlade>Reset Password</a> to address authentication errors.</li><li>Reset SSH configuration to fix any SSH issues.<br><a href=\"https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-reset-access/#sshconfigresetcli\">Reset SSH using CLI</a></li></ol></div>",
+		recommendedDocuments: [{
+			description: "Detailed troubleshooting of SSH errors",
+			url: "https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-troubleshoot-ssh-connection/#detailed-troubleshooting-of-ssh-errors"
+		},
+		{
+			description: "Automate Linux VM Customization Tasks Using CustomScript Extension",
+			url: "https://azure.microsoft.com/en-us/blog/automate-linux-vm-customization-tasks-using-customscript-extension/"
+		}],
+		metadata: "Linux"
+	}],
+	commonProblemsBySupportTopics: [{
+		supportTopicId: "32411835",
+		supportTopicName: "Connectivity/Cannot connect to virtual machine by using RDP or SSH",
+		referencedCommonProblem: "I can't connect to my Linux VM",
+		recommendedSteps: "",
+		recommendedDocuments: [],
+		metadata: "Linux"
+	}]
+}
