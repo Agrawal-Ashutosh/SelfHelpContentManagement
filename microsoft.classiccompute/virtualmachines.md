@@ -1,5 +1,3 @@
-#Common problems
-
 ##I can't connect to my Linux VM
 
 ###Recommended steps
@@ -22,7 +20,7 @@ Click 'Size' in the Settings blade of the VM resource.
 ###metadata
 linux
 
-## I can't create or add a new VM
+##I can't create or add a new VM
 
 ###Recommended steps
 To resolve the most common issues, try one or more of the following methods.
@@ -40,4 +38,3 @@ To resolve the most common issues, try one or more of the following methods.
 
 ###metadata
 linux;windows
- 
