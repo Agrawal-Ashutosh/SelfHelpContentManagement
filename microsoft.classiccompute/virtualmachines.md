@@ -17,8 +17,7 @@ Click 'Size' in the Settings blade of the VM resource.
 [Detailed troubleshooting of SSH errors](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-troubleshoot-ssh-connection/#detailed-troubleshooting-of-ssh-errors) <br>
 [Automate Linux VM Customization Tasks Using CustomScript Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
 
-###metadata
-linux
+######metadata:linux
 
 ##I can't create or add a new VM
 
@@ -36,5 +35,4 @@ To resolve the most common issues, try one or more of the following methods.
 ###Recommended documents
 [Troubleshooting allocation failure when you create, restart or resize a VM in Azure ](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-allocation-failure/) 
 
-###metadata
-linux;windows
+######metadata:linux;windows
