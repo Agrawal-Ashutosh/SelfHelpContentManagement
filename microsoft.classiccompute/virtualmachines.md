@@ -4,8 +4,8 @@
 To resolve the most common issues, try one or more of the following steps.
 
 1. Check VM's [Resource Health](data-blade:Microsoft_Azure_Support.ResourceHealthDetailBlade) for any platform issues.
-2. Review your VM's [console log](Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) or screenshot to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.
-3. [Reset Password](Microsoft_Azure_Classic_Compute.PasswordResetBlade) to address authentication errors.
+2. Review your VM's [console log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) or screenshot to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.
+3. [Reset Password](data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade) to address authentication errors.
 4. Restart the Virtual Machine to address startup issues. <br>
    Click 'Restart' at the top of the VM resource blade.
 5. Resize the VM to fix host issues. <br>
@@ -24,7 +24,7 @@ Click 'Size' in the Settings blade of the VM resource.
 ###Recommended steps
 To resolve the most common issues, try one or more of the following methods.
 
-1. Review [Audit logs](Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason.
+1. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter) to determine the failure reason.
 2. Use following article for suggested actions by error code.<br>
    [Troubleshoot error codes for create or add a new VM](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-allocation-failure/#error-string-lookup)
 3. Try your request by using a smaller VM size or using a different cloud service. If using different cloud service, use following article.<br>
