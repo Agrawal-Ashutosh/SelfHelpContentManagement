@@ -36,3 +36,4 @@ To resolve the most common issues, try one or more of the following methods.
 [Troubleshooting allocation failure when you create, restart or resize a VM in Azure ](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-allocation-failure/) 
 
 ######metadata:linux;windows
+<metadata>linux</metadata>
