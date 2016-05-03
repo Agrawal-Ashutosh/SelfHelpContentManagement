@@ -31,3 +31,28 @@ To resolve the most common issues, try one or more of the following methods.
 ## **Recommended documents**
 [Troubleshooting allocation failure when you create, restart or resize a VM in Azure](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-allocation-failure/)
  
+#My VM is slow
+
+## **Recommended steps**
+Try following steps to diagnose and mitigate VM performance issues.
+
+* Review your application error logs, traces and metrics to determine if any application level bottlenecks causing performance issues.<br>
+Restart Application and machine as a quick way to recover from one-time issues.
+
+* Review OS (Operating System) level metrics such as CPU, memory usage, IO and network to see if any resource has consistent high utilization.<br>
+On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat, Lsof & Tcpdump.
+
+* Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled. <br>
+[Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](https://support.microsoft.com/en-us/kb/3150851)
+ 
+* Address any VM OS issues by restarting the VM <br>
+Click 'Restart' at the top of the VM resource blade.
+
+* Scale up the Virtual Machine to a different VM type or series for increased performance.<br>
+Click ‘Size’ in the Settings blade of the VM resource.
+
+* Consider using Premium Storage account if its an I/O intensive use-case. <br>
+[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/) 
+
+## **Recommended documents**
+[Detailed troubleshooting of Azure Storage ](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
