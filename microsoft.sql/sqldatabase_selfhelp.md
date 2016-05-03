@@ -13,3 +13,4 @@
 [Azure SQL Database Transact-SQL differences](https://azure.microsoft.com/en-us/documentation/articles/sql-database-transact-sql-information/)
 
 ######metadata:3456345
+	
