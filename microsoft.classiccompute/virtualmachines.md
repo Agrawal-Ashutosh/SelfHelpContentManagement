@@ -42,11 +42,12 @@ Restart Application and machine as a quick way to recover from one-time issues.
 * Review OS (Operating System) level metrics such as CPU, memory usage, IO and network to see if any resource has consistent high utilization.<br>
 On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat, Lsof & Tcpdump.
 
-* Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled. <br>
-[Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](https://support.microsoft.com/en-us/kb/3150851)
+* Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled.
+	* [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](https://support.microsoft.com/en-us/kb/3150851)
  
+
 * Address any VM OS issues by restarting the VM <br>
-Click 'Restart' at the top of the VM resource blade.
+	* Click 'Restart' at the top of the VM resource blade.
 
 * Scale up the Virtual Machine to a different VM type or series for increased performance.<br>
 Click ‘Size’ in the Settings blade of the VM resource.
