@@ -3,6 +3,7 @@
 ## **Recommended steps**
 To resolve the most common issues, try one or more of the following steps.
 
+1. Check VM's [Resource Health](data-blade:Microsoft_Azure_Support.ResourceHealthDetailBlade) for any platform issues.
 2. Review your VM's [console log](data-blade:Microsoft_Azure_Classic_Compute.VirtualMachineSerialConsoleLogBlade) or screenshot to correct boot problems. Review errors in log such as FSTAB (file systems table), FSCK (file system consistency) or Networking errors.
 3. [Reset Password](data-blade:Microsoft_Azure_Classic_Compute.PasswordResetBlade) to address authentication errors.
 4. Restart the Virtual Machine to address startup issues.<br>
@@ -29,7 +30,7 @@ To resolve the most common issues, try one or more of the following methods.
 
 ## **Recommended documents**
 [Troubleshooting allocation failure when you create, restart or resize a VM in Azure](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-allocation-failure/)
-
+ 
 #My VM is slow
 
 ## **Recommended steps**
@@ -43,7 +44,7 @@ On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat,
 
 * Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled.
 	* [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](https://support.microsoft.com/en-us/kb/3150851)
-
+ 
 
 * Address any VM OS issues by restarting the VM <br>
 	* Click 'Restart' at the top of the VM resource blade.
@@ -52,7 +53,7 @@ On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat,
 Click ‘Size’ in the Settings blade of the VM resource.
 
 * Consider using Premium Storage account if its an I/O intensive use-case. <br>
-[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/)
+[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/) 
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage ](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
@@ -70,7 +71,7 @@ On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat,
 
 * Use VM Diagnostics and Storage Diagnostics in Azure Portal to identify if any resource being overutilized or throttled.
 	* [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and Storage](https://support.microsoft.com/en-us/kb/3150851)
-
+ 
 
 * Address any VM OS issues by restarting the VM <br>
 	* Click 'Restart' at the top of the VM resource blade.
@@ -79,7 +80,7 @@ On Windows you can use Perfmon tool. On Linux, use commands such as Top, VmStat,
 Click ‘Size’ in the Settings blade of the VM resource.
 
 * Consider using Premium Storage account if its an I/O intensive use-case. <br>
-[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/)
+[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/) 
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage ](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
