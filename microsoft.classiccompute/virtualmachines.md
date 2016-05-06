@@ -1,4 +1,4 @@
-#I can't connect to my Linux VM Test
+#I can't connect to my Linux VM
 
 ## **Recommended steps**
 To resolve the most common issues, try one or more of the following steps.
