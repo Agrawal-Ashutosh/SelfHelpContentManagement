@@ -76,3 +76,11 @@ Click ‘Size’ in the Settings blade of the VM resource.
 
 ## **Recommended documents**
 [Detailed troubleshooting of Azure Storage ](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
+
+#Problem type with recommended documents only
+
+
+## **Recommended documents**
+[Detailed troubleshooting of Azure Storage ](https://azure.microsoft.com/en-us/documentation/articles/storage-monitoring-diagnosing-troubleshooting/)
+
+[Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/) 
